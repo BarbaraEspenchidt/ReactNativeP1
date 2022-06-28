@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "cloneTalk7",
+    "slug": "cloneTalk7",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
