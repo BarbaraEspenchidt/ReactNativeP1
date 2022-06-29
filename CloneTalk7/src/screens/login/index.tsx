@@ -42,9 +42,9 @@ export const Login = () => {
                 </TouchableOpacity>
 
              <TouchableOpacity style={styles.buttonF}>
+             <FontAwesome5 name="facebook" size={20} color="#566D8C" marginRight={100} />
                 <Text style={styles.buttonTextF}>
-                <FontAwesome5 name="facebook" size={20} color="#566D8C" marginRight={100} />
-                    Conectar com o Facebook  
+                 Conectar com o Facebook  
                 </Text>
              </TouchableOpacity>
 
