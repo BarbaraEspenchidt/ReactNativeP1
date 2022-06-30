@@ -10,13 +10,13 @@ export const Login = () => {
     
     return <> 
     <View style={styles.cabecalho}>
-    <Text style={styles.login}>
+        <Text style={styles.login}>
             Login
         </Text>
     </View>
     
     <View style={styles.container}>
-                 <Image source={{uri:"https://images.elo7.com.br/assets/v3/desktop/svg/logo-elo7.svg"}} style={styles.image}/>
+        <Image source={{uri:"https://images.elo7.com.br/assets/v3/desktop/svg/logo-elo7.svg"}} style={styles.image}/>
         <Text style={styles.title}>
             Login Elo7
         </Text>
@@ -30,34 +30,35 @@ export const Login = () => {
                 style={styles.input}
                 keyboardType="email-address"
             />
-                
-            <Text style={styles.textoCx1}>Senha                          Esqueceu a senha?</Text>
+            <View style={styles.textoDuplo}>
+                <Text style={styles.textoCx1}>Senha</Text>           
+                <Text style={styles.textoCx1vd}>Esqueceu a senha?</Text>                
+            </View>
             <TextInput style={styles.input} keyboardType="default" />
 
-
-                <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button}>
                 <Text style={styles.buttonText}>
                     Entrar
                 </Text>
-                </TouchableOpacity>
+            </TouchableOpacity>
 
-             <TouchableOpacity style={styles.buttonF}>
-             <FontAwesome5 name="facebook" size={20} color="#566D8C" marginRight={100} />
+            <TouchableOpacity style={styles.buttonF}>
                 <Text style={styles.buttonTextF}>
-                 Conectar com o Facebook  
+                <FontAwesome5 name="facebook" size={20} color="#566D8C" />
+                 Conectar com o Facebook                  
                 </Text>
-             </TouchableOpacity>
+            </TouchableOpacity>
 
-             <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center'}]}>...................................................................................................</Text>
+            <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center'}]}>...................................................................................................</Text>
 
-             <Text style={[styles.textoCx1, {fontSize: 15, textAlign:'center', color:'#6EB3A9', marginTop:15}]}>
+            <Text style={[styles.textoCx1, {fontSize: 15, textAlign:'center', color:'#6EB3A9', marginTop:15}]}>
                 Sou um novo usuário
             </Text>
             
             <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center'}]}>...................................................................................................</Text>
             
             <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#ADADAD', marginTop:10}]}>
-            Protegido pelo reCAPTCHA - Privacidade e 
+                Protegido pelo reCAPTCHA - Privacidade e 
             </Text>
 
             <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#6EB3A9'}]}>

@@ -56,12 +56,31 @@ export const styles = StyleSheet.create({
 
     },
 
+    textoDuplo:{
+      flexDirection:"row",
+      justifyContent: "space-between"
+      
+    },
+
+
+    
     textoCx1: {
         color: '#ADADAD',
         fontSize: 15,
         fontWeight: "normal",
         textAlign:'left'
     },
+
+    textoCx1vd: {
+      color: '#6EB3A9',
+      fontSize: 15,
+      fontWeight: "normal",
+      marginRight: 30,
+      textAlign:'right'
+      
+  },
+
+
 
     button: {
       backgroundColor:'#FDB934',
