@@ -26,10 +26,8 @@ export const Login = () => {
 
         <View style={styles.interno}>
             <Text style={styles.textoCx1}>E-mail</Text>
-            <TextInput
-                style={styles.input}
-                keyboardType="email-address"
-            />
+            <TextInput style={styles.input} keyboardType="email-address"/>
+
             <View style={styles.textoDuplo}>
                 <Text style={styles.textoCx1}>Senha</Text>           
                 <Text style={styles.textoCx1vd}>Esqueceu a senha?</Text>                
@@ -44,8 +42,8 @@ export const Login = () => {
 
             <TouchableOpacity style={styles.buttonF}>
                 <Text style={styles.buttonTextF}>
-                <FontAwesome5 name="facebook" size={20} color="#566D8C" />
-                 Conectar com o Facebook                  
+                <FontAwesome5 name="facebook" size={20} color="#566D8C"/>
+                Conectar com o Facebook                  
                 </Text>
             </TouchableOpacity>
 
@@ -57,12 +55,11 @@ export const Login = () => {
             
             <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center'}]}>...................................................................................................</Text>
             
-            <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#ADADAD', marginTop:10}]}>
-                Protegido pelo reCAPTCHA - Privacidade e 
-            </Text>
-
-            <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#6EB3A9'}]}>
-                Termos de Serviço.
+           <Text style={{flexDirection:'row', textAlign:'center' }}>
+                <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#ADADAD', marginTop:10}]}> Protegido pelo reCAPTCHA -</Text>
+                <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#6EB3A9', marginTop:10}]}> Privacidade </Text>
+                <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#ADADAD', marginTop:10}]}> e   {'\n'}</Text>
+                <Text style={[styles.textoCx1, {fontSize: 13, textAlign:'center', color:'#6EB3A9'}]}>Termos de Serviço.</Text>
             </Text>
             
         </View>
